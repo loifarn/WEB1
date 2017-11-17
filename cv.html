@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <header>
+        <link rel="stylesheet" type="text/css" href="resources/css/pdfstyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <style>
+            html, body { height: 100%; margin: 0; }
+            .pdfviewer{ height: 100%; width: 100%; }
+        </style>
+    </header>
+    <body>
+        <div class="pdfviewer">
+            <script src="vendors/js/pdfobject.min.js"></script>
+            <script>PDFObject.embed("/resources/files/cv-2017.pdf", ".pdfviewer");</script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang ="en" class="no-js">
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css"> 
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/wesleys_menu.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="vendors/css/reset.css"> <!-- CSS reset -->
+        <link rel="stylesheet" href="vendors/css/style.css"> <!-- Resource style -->
+
+        <title>AP - Home</title>
+        <link rel="shortcut icon" type="image/png" href="/resources/css/img/favicon.gif"/>
+    </head>
+    <body>
+        <div id="dotMenu">
+            <div class="opener">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul>
+                <li><a onclick="$('header').goTo();"><span>Home</span> <i class="ion-ios-home-outline icon-t"></i></a></li>
+                <li><a target="_blank" href="/resources/php/redirect_login.php"><span>Login</span> <i class="ion-ios-person-outline icon-t"></i></a></li>
+                <li><a onclick="$('#projects').goTo();"><span>Projects</span> <i class="ion-ios-folder-outline icon-t"></i></a></li>
+                <li><a onclick="$('#about-me').goTo();"><span>About</span> <i class="ion-ios-information-outline icon-t"></i></a></li>
+                <li><a target="_blank" href="cv.html"><span>CV</span> <i class="ion-ios-list-outline icon-t"></i></a></li>
+                <li><a onclick="$('#contact').goTo();"><span>Contact</span> <i class="ion-ios-email-outline icon-t"></i></a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="row">
+                <img src="resources/css/img/ap-logo-orange.png" alt="Alex Pedersen Logo" class="logo">
+            </div>
+    
+            <div class="hero-text-box">
+                <h1 class="title-text">A.P - Software Developer</h1>
+                <a class="btn btn-full" href="http://blog.alexpdr.com">Read the Blog</a>
+                <a class="btn btn-ghost" onclick="$('#projects').goTo();">Projects</a>
+            </div>
+        </header>
+        <section class="section-features" id="projects">
+            <div class="waypoint" id="basic-waypoint"></div>
+            <div class="row">
+                <h2>Projects</h2>
+                <p class="long-copy">
+                At any given time I am working on several projects both professionally, through studies and course work and for personal passion projects. Here are some of the projects (in their varying stages of completion) that I am currently working on.</p>
+            </div>
+            
+            <div class="row">            
+                <div class="col span-1-of-4 box">
+                    <i class="ion-earth icon-big" style="font-weight: 200; "></i>
+                    <h3>Website</h3>
+                    <p>My current main project is to further develop the functionality of this website aswell as further develop a library of templates and themes for commecial use.</p>
+                    <br>
+                    <p>This also includes the continued development and growth of the existant content library.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <a href="https://github.com/loifarn/DAPA"><i class="ion-ios-chatboxes-outline icon-big"></i></a>
+                    <h3>DAPA Chat client</h3>
+                    <p>Is an alternative to IRC consisting of a user client, server back-end and a custom message transfer protocol written entirely in Java.</p>
+                    <br>
+                    <p>This project was started as an extension of the semester project for the software development course at the University of Agder.</p>
+                </div>    
+                <div class="col span-1-of-4 box">
+                    <i class="ion-social-twitter-outline icon-big"></i>
+                    <h3>Twitter bot</h3>
+                    <p>The twitter bot was initially made as a proof of concept and utility based of existing third-party libraries.</p>
+                    <br>
+                    <p>It is currently put on hiatus due to work on other project but does have  ready-made plans for further development in the future.</p>
+                </div>                
+                <div class="col span-1-of-4 box">
+                    <i class="ion-alert-circled icon-big"></i>
+                    <h3>Coming soon</h3>
+                    <p>A new project is coming here soon!</p>
+                    <br>
+
+                </div>
+            </div>
+            <div class="row"><h2>&nbsp</h2></div>
+        </section>
+        <section class="section-about-me" id="about-me">
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <img class="portrait-image" src="resources/css/img/selfie_00.jpg" alt="Portrait image">
+                </div>
+                <div class="col span-1-of-2">
+                    <h2>ABOUT</h2>
+                    <p>My name is <span onclick="$('#contact').goTo();">Alex Pedersen</span>, I am a 22 year old tech enthusiast from the outskirts of Bergen in Norway. I have a passion everything technology related and special interest in GNU/Linux and open-source software.</p>
+                    <br>
+                    <p>When I am not occupied with work, studies or my latest projects I also enjoy hiking, cooking and playing the piano.</p>
+                    <br>
+                    <p>With front-line experience from customer service, a Craft/Trade certificate in ICT-Service, Certification in Web Development and bachelors degree in progress for Software Engineering. I hope to provide a relevant and useful skillset to you and/or your firm</p>
+                    <br>
+                    <p>Feel free to <span style="color: #FF971E; font-weight: 400;" ><a href="" class="text-link">contact</a></span> me if you have questions about me or any of projects.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </section>
+        <section class="section-about-site" id="about-site">
+            <div class="row">
+                <h2>The site</h2>
+                <p><span style="color: #FF971E; font-weight: 400; font-style: italic;">www.alexpdr.com</span> was launched in 2016 as the third incarnation of what were to be my personal website and blog. It is meant to serve as both as a platform for me to create, share and store helpful and educational material aswell as a promotional tool for me and my skills.</p>
+                <br><br>
+                <p>Here You will find a number of helpful and educational articles on GNU/Linux, programming, technlology as well as my many projects and the occational personal posts on matters which are currently of interest to me.</p>
+            </div>
+        </section>
+        
+        <!--Can further easily add additional sections from here.-->
+        <section class="section-form" id="contact">
+            <div class="row">
+                <h2>I'd love to hear from you!</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="/resources/php/contact.php" class="contactForm">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" placeholder="Your name" required/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email"placeholder="Your email" required/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="findUs">How did you find this site?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="findUs">
+                                <option value="LinkedIn" selected>LinkedIn</option>
+                                <option value="google">Google</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Message me</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href=".">Home</a></li>
+                        <li><a href="/#projects">Projects</a></li>
+                        <li><a href="/#about-me">About</a></li>
+                        <li><a href="/cv.html">CV</a></li>
+                        <li><a href="http://www.alexpdr.com">Blog</a></li>
+                        <li><a href="/login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="https://twitter.com/alexpdrs"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://github.com/loifarn"><i class="ion-social-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/alexpdrs/"><i class="ion-social-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p> Copyright &copy; 2017 by Alex Pedersen. All rights reserved. </p>
+            </div>
+        </footer>
+
+        <script src="vendors/js/modernizr.js"></script> <!-- Modernizr -->
+        <script src="vendors/js/jquery-2.1.4.js"></script>
+        <script src="vendors/js/main.js"></script> <!-- Resource jQuery -->
+        
+        <script src="vendors/js/waypoints/lib/noframework.waypoints.min.js"></script>
+        <script src="vendors/js/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="vendors/js/waypoints/lib/shortcuts/inview.min.js"></script>
+        <script src="resources/js/waypoints.js"></script>
+        <script src="resources/js/navMenu.js"></script>
+    </body>
+</html>
